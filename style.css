@@ -1,0 +1,164 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face
+{
+    font-family: kiwi;
+    src: url(fonts/BurbankBigCondensed-Black.otf);
+}
+@font-face
+{
+    font-family: roboto;
+    src: url(fonts/Roboto-Light.ttf);
+}
+#box1
+{
+    width: 100%;
+    height: 750px;
+    background-image: url("img/bg_tnt.png");
+    background-attachment: fixed;
+}
+#box2
+{
+    width: 100%;
+    height: 1700px;
+    background-color: rgb(204, 204, 204);
+    position: absolute;
+}
+#box3
+{
+	width: 100%;
+	height: 76px;
+	background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 2;
+}
+#box4
+{
+    width: 60%;
+    height: 1500px;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 3px;
+    position: absolute;
+    top: 700px;
+    left: 20%;
+    box-shadow: 0px 0px 50px -17px black;
+}
+#gct
+{
+    color: white;
+    font-family: kiwi;
+    font-size: 1300%;             /*1062.8%*/    
+    transition-duration: 1s;
+    margin-left: 23.11%;
+    position: fixed;
+    text-shadow: 0px 0px 3.5px black;
+}
+#gct:hover
+{
+    
+    text-shadow: 0px 0px 3.5px;
+    transform: rotate(0.9deg) scale(113%);
+}
+#gcip
+{
+    color: #fff;
+    font-family: roboto;
+    font-size: 160%;
+    position: fixed;
+    margin-left: 44.7%;
+    top: 440px;
+    text-shadow: 0px 0px 3px black;
+    background-image: linear-gradient(to bottom right,rgb(112, 112, 112) ,rgb(54, 54, 54) );
+    border-radius: 4px;
+    border: 2px solid #fff;
+    width: 10.6%;
+    height: 75px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+#gcip
+{
+    content: "kup";
+}
+#img1
+{
+    width: 45px;
+    margin: 15px;
+    transition-duration: 0.1s;
+}
+#img1:hover
+{
+    opacity: 80%;
+    transform: scale(108%);
+}
+#img_a
+{
+    float: left;
+    margin-left: 22.5%;
+}
+#a_img
+{
+    font-family: roboto, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 130%;
+    margin-top: 27px;
+    float: left;
+}
+#a_img:hover
+{
+    opacity: 80%;
+}
+header nav ul
+{
+    margin-right: 22.5%;
+}
+header nav ul li
+{
+    list-style-type: none;
+    float: right;
+    display: inline;
+    margin-left: 40px;
+    margin-top: 27.5px;
+}
+header nav li a
+{
+    font-family: 'Vardana', sans-serif;
+    text-decoration: none;
+    color: white;
+    display: inline;
+    font-size: 96.5%;
+}
+header nav li a:hover
+{
+    opacity: 70%;
+}
+#footer
+{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(54, 54, 54);
+    position: relative;
+    margin-top: 1600px;
+}
+#foot
+{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(16, 16, 16);
+    float: bottom;
+    margin-top: 1600px;
+}
+#pf
+{
+    color: #fff;
+    font-family: arial;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+
+}
